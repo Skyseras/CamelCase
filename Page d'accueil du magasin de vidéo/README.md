@@ -8,7 +8,7 @@ Vous devez être en mesure de :
 
 Vous êtes un développeur front-end travaillant pour une start-up technologique. On vous a demandé de créer une page d'accueil pour le magasin de vidéo en ligne. Le web designer vous a donné la maquette suivante :
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d3ac55d-f702-4f87-b886-69f5814152d8/final_product_page.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d3ac55d-f702-4f87-b886-69f5814152d8/final_product_page.png)
+![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1d3ac55d-f702-4f87-b886-69f5814152d8/final_product_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211203T202427Z&X-Amz-Expires=86400&X-Amz-Signature=5817df1cae42da2abead0bc6551719ae1a3b44e63fe664a4fec09134904f5a5c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22final_product_page.png%22&x-id=GetObject](final_product_page.png)
 
 ## Déroulement
 
