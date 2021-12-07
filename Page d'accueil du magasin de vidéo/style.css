@@ -21,8 +21,19 @@ ul {
     border: 0px;
     padding: 0px;
 }
+
+h1 {
+
+}
+
 h2 {
     font-weight: bold;
+}
+
+h4 {
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    margin-bottom: -15px;
 }
 
 li {
