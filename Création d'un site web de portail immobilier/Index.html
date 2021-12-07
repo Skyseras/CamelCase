@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="normalize.css">
@@ -14,41 +13,51 @@
     <header>
         <img src="Logo.jpg" alt="Logo de maison indiquant l'immobiliers" width="100">
     </header>
-    <section>
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-              <label for="Recherche">Recherche :</label>
-              <input type="text" name="Recherche" id="Recherche" required>
-            </div>
+    <nav>
 
-            <div class="form-example">
-              <label for="Prix">Prix :</label>
-              <span>Min </span><input type="number" value="0" min="0" max="1000000000000"/>
-              <span>Max </span><input type="number" value="0" min="0" max="1000000000000"/>
-            </div>
+    </nav>
+    <main>
+        <h1><b>Meilleur Portail Immobilier</b></h1>
+        <section>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                <label for="Recherche">Recherche :
+                <input type="text" name="Recherche"></label>
+                </div>
 
-            <div class="form-example">
-                <label for="Chambre">Nombre de Chambre :</label>
-                <span>Min </span><input type="number" value="1" min="1" max="20"/>
-            </div>
+                <div class="form-example">
+                <label for="Prix">Prix :
+                <span>Min </span><input type="number" value="150000" min="0" max="999999999999"/>
+                <span>Max </span><input type="number" value="500000" min="0" max="999999999999"/></label>
+                </div>
 
-            <div class="form-example">
-                <label for="Type de propriété">Type de propriété :</label>
-                <input type="checkbox" name="Pleine propriété" id="type"><span> Pleine propriété</span>
-                <input type="checkbox" name="Copropriété" id="type"><span> Copropriété</span>
-                <input type="checkbox" name="Propriété démembrée" id="type"><span> Propriété démembrée</span>
-                <input type="checkbox" name="Indivision" id="type"><span> Indivision</span>
-            </div>
+                <div class="form-example">
+                    <label for="Chambre">Nombre de Chambre :
+                    <span>Min </span><input type="number" value="1" min="1" max="20"/></label>
+                </div>
 
-            <div class="form-example">
-                <label for="Propriétés vendues">Propriétés vendues :</label>
-                <input type="checkbox" name="inclure" id="type"><span> Inclure</span>
-            </div>
+                <div class="form-example">
+                    <label for="Type de propriété">Type de propriété :
+                    <input type="checkbox" name="Pleine propriété"><span> Pleine propriété</span>
+                    <input type="checkbox" name="Copropriété"><span> Copropriété</span>
+                    <input type="checkbox" name="Propriété démembrée"><span> Propriété démembrée</span>
+                    <input type="checkbox" name="Indivision"><span> Indivision</span></label>
+                </div>
 
-            <div class="form-example">
-                <input type="submit" value="Commencer la recherche">
-            </div>
-          </form>
-    </section>
+                <div class="form-example">
+                    <label for="Propriétés vendues">Propriétés vendues :
+                    <input type="checkbox" name="inclure"><span> Inclure</span></label>
+                </div>
+
+                <div class="form-example">
+                    <label for="submit">
+                    <input type="submit" value="Commencer la recherche"></label>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

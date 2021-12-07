@@ -1,21 +1,33 @@
 body {
+    background-color: white;
+    text-align: center;
+}
+
+section {
     background-image: url('Bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-weight: bold;
+    padding: 10%;
 }
 
 header {
     text-align: center;
+    margin: -30px;
 }
-
+/*rgb(255, 228, 196, .9)*/
 form {
     margin: 2% 15%;
     padding: 5%;
-    background-color: rgb(255, 228, 196, .6);
+    background-color: rgb(255, 255, 255, .9);
     text-align: center;
 }
 
 section form div {
     margin: 10px;
+}
+
+h1 {
+    margin: 0;
 }
