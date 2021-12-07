@@ -1,0 +1,21 @@
+body {
+    background-image: url('Bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    margin: 2% 15%;
+    padding: 5%;
+    background-color: rgb(255, 228, 196, .6);
+    text-align: center;
+}
+
+section form div {
+    margin: 10px;
+}
