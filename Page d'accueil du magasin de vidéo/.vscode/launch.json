@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Microsoft Edge and open the Edge DevTools",
+            "request": "launch",
+            "type": "vscode-edge-devtools.debug",
+            "url": "file:///C:/Users/skyse/CamelCase/Page%20d'accueil%20du%20magasin%20de%20vid%C3%A9o/Home.html" // Provide your project's url to finish configuring
+        }
+    ]
+}
