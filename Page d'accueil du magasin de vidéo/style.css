@@ -22,10 +22,6 @@ ul {
     padding: 0px;
 }
 
-h1 {
-
-}
-
 h2 {
     font-weight: bold;
 }
@@ -70,18 +66,28 @@ a:hover {
 text-decoration: underline;
 }
 
-.first div {
+.first { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    box-sizing: border-box;
     margin: 5px;
-    padding: 15px;
+    padding: 10px;
     border: 2px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    width: 263px;
     display: inline-block;
 }
 
 section img {
     margin-bottom: 10px;
+    min-width: 100%;
+
 }
 
 .title {
