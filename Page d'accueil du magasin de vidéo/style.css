@@ -25,7 +25,27 @@ main {
     background-position: center;
     margin: 0px;
     border: 0px;
-    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.bg {
+    padding: 10% 0%;
+    text-align: center;
+}
+
+.bg a {
+    background-color: rgba(238,26,61,255);
+    padding: 1%;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg a:hover {
+    background-color: rgb(253, 8, 90);
 }
 
 header nav ul div {
@@ -64,6 +84,7 @@ main h4 {
     color: rgba(238,26,61,255);
     font-weight: bold;
     margin-bottom: -15px;
+    text-decoration: line-through;
 }
 
 main li {
@@ -128,12 +149,14 @@ text-decoration: underline;
     margin: 5px;
     padding: 10px;
     border: 2px;
+    border-radius: 10px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     display: inline-block;
 }
 
 section img {
+    border-radius: 5px;
     margin-bottom: 0px;
     min-width: 100%;
 }
